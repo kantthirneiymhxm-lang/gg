@@ -80,7 +80,7 @@ public final class Abilities {
 				return false;
 			}
 			int k = t - windup;
-			if (k == 0) sound(w, o, gravity ? SoundEvents.ENTITY_BEACON_ACTIVATE : SoundEvents.ENTITY_WARDEN_SONIC_BOOM, 14f, 0.6f);
+			if (k == 0) sound(w, o, gravity ? SoundEvents.BLOCK_BEACON_ACTIVATE : SoundEvents.ENTITY_WARDEN_SONIC_BOOM, 14f, 0.6f);
 			if (k % 4 == 0) sound(w, o, gravity ? SoundEvents.BLOCK_BEACON_AMBIENT : SoundEvents.ENTITY_BLAZE_SHOOT, 6f, 0.5f);
 			beam(w, src, o, aim.get().normalize(), range, width, dmg, gravity, k);
 			return false;
