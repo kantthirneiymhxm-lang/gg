@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "kaiju_kings:item/godzilla_chestplate"
+ }
+}

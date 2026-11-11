@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "equipment",
+ "pattern": [
+  "XXX",
+  "X X",
+  "X X"
+ ],
+ "key": {
+  "X": {
+   "item": "kaiju_kings:godzilla_cell"
+  }
+ },
+ "result": {
+  "item": "kaiju_kings:godzilla_leggings"
+ }
+}

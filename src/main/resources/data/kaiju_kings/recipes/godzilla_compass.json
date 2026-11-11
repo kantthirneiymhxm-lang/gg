@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  {
+   "item": "minecraft:compass"
+  },
+  {
+   "item": "minecraft:diamond"
+  },
+  {
+   "item": "minecraft:emerald"
+  }
+ ],
+ "result": {
+  "item": "kaiju_kings:godzilla_compass",
+  "count": 1
+ }
+}
